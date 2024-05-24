@@ -1,0 +1,63 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.container-xxl{
+    padding: 0% !important;
+    background-image: url(road.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;position: relative;
+}
+.main{
+    height: 100vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+
+
+.box1>button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 800;
+    padding: 20px ;    
+    position: absolute;
+    top: 320px;
+    left: 130px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: black;
+
+}
+.box2>button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 20px ;
+    color: white;
+    font-weight: 800;
+    position: absolute;
+    top: 230px;
+    left:130px ;
+    width: 100px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+
+
+.box>img{
+     width: 20%;
+     position: relative;
+}
+
+
+.light{
+    width: 200px ;
+    display: flex;
+    margin: auto !important;
+}
